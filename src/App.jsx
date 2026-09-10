@@ -397,24 +397,128 @@ function App() {
                 <div className="metric-label">States Served</div>
               </div>
             </div>
- <blockquote className="track-record-quote">
-                Built for the builders who demand certainty.
-              </blockquote>
+            <blockquote className="track-record-quote">
+                            Built for the builders who demand certainty.
+            </blockquote>
           </div>
-
-            
         </section>
 
-        <section></section>
+        {/* Featured Projects Section */}
+        <section id="projects" className="section-projects">
+          <div className="section-container">
+            <span className="badge badge-projects">Portfolio</span>
+            <h2 className="section-title">Active Developments</h2>
+            <p className="section-subtitle-text">Premium finished lots currently available or in development.</p>
 
-        {/* <section id="about" className="section-about">
+            <div className="projects-grid">
+              {/* Project 01 */}
+              <div className="project-card">
+                <div className="project-header">
+                  <span className="project-index">01</span>
+                  <span className="project-status">Available</span>
+                </div>
+                <div className="project-visual-schema">
+                  <svg className="project-svg" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="5" y="5" width="110" height="70" rx="6" fill="#f8f9ff" stroke="rgba(40, 56, 145, 0.1)" strokeWidth="1.5" />
+                    <line x1="20" y1="5" x2="20" y2="75" stroke="rgba(40, 56, 145, 0.15)" strokeWidth="1" strokeDasharray="2 2" />
+                    <line x1="60" y1="5" x2="60" y2="75" stroke="rgba(40, 56, 145, 0.15)" strokeWidth="1" strokeDasharray="2 2" />
+                    <line x1="100" y1="5" x2="100" y2="75" stroke="rgba(40, 56, 145, 0.15)" strokeWidth="1" strokeDasharray="2 2" />
+                    <line x1="5" y1="40" x2="115" y2="40" stroke="#EF7C2E" strokeWidth="2.5" />
+                    <circle cx="20" cy="40" r="4.5" fill="#283891" />
+                    <circle cx="60" cy="40" r="4.5" fill="#283891" />
+                    <circle cx="100" cy="40" r="4.5" fill="#283891" />
+                    <rect x="15" y="15" width="10" height="10" rx="1.5" fill="rgba(40, 56, 145, 0.12)" />
+                    <rect x="55" y="15" width="10" height="10" rx="1.5" fill="rgba(40, 56, 145, 0.12)" />
+                    <rect x="95" y="15" width="10" height="10" rx="1.5" fill="rgba(40, 56, 145, 0.12)" />
+                  </svg>
+                </div>
+                <div className="project-body">
+                  <h3>Highland Grove</h3>
+                  <div className="project-meta-line">
+                    <span className="project-loc">📍 Terrell, NC</span>
+                    <span className="project-count">🏡 62 Single-Family Home Sites</span>
+                  </div>
+                  <p className="project-desc-para">
+                    Premium lakeside development engineered with advanced infrastructure, completed grading, and utilities connected, ready for immediate vertical construction.
+                  </p>
+                  <a href="#contact" className="project-link-btn">View Project &rarr;</a>
+                </div>
+              </div>
+
+              {/* Project 02 */}
+              <div className="project-card">
+                <div className="project-header">
+                  <span className="project-index">02</span>
+                  <span className="project-status">Available</span>
+                </div>
+                <div className="project-visual-schema">
+                  <svg className="project-svg" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="5" y="5" width="110" height="70" rx="6" fill="#f8f9ff" stroke="rgba(40, 56, 145, 0.1)" strokeWidth="1.5" />
+                    <rect x="15" y="15" width="22" height="30" rx="2" fill="rgba(40, 56, 145, 0.08)" stroke="#283891" strokeWidth="1.5" />
+                    <rect x="49" y="15" width="22" height="30" rx="2" fill="rgba(40, 56, 145, 0.08)" stroke="#283891" strokeWidth="1.5" />
+                    <rect x="83" y="15" width="22" height="30" rx="2" fill="rgba(239, 124, 46, 0.08)" stroke="#EF7C2E" strokeWidth="1.5" />
+                    <line x1="5" y1="55" x2="115" y2="55" stroke="rgba(40, 56, 145, 0.15)" strokeWidth="1.5" />
+                    <circle cx="26" cy="55" r="3.5" fill="#283891" />
+                    <circle cx="60" cy="55" r="3.5" fill="#283891" />
+                    <circle cx="94" cy="55" r="3.5" fill="#EF7C2E" />
+                  </svg>
+                </div>
+                <div className="project-body">
+                  <h3>Norman Station</h3>
+                  <div className="project-meta-line">
+                    <span className="project-loc">📍 Mooresville, NC</span>
+                    <span className="project-count">🏡 24 Townhome Sites</span>
+                  </div>
+                  <p className="project-desc-para">
+                    Strategically located infill townhouse parcel with fully resolved storm water management, finished concrete curbing, and utility drops in place.
+                  </p>
+                  <a href="#contact" className="project-link-btn">View Project &rarr;</a>
+                </div>
+              </div>
+
+              {/* Project 03 */}
+              <div className="project-card">
+                <div className="project-header">
+                  <span className="project-index">03</span>
+                  <span className="project-status orange">Underway</span>
+                </div>
+                <div className="project-visual-schema">
+                  <svg className="project-svg" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="5" y="5" width="110" height="70" rx="6" fill="#f8f9ff" stroke="rgba(40, 56, 145, 0.1)" strokeWidth="1.5" />
+                    <path d="M10 60h100V70H10V60z" fill="rgba(40, 56, 145, 0.1)" />
+                    <line x1="15" y1="20" x2="105" y2="20" stroke="rgba(40, 56, 145, 0.12)" strokeWidth="1.5" />
+                    <line x1="15" y1="40" x2="105" y2="40" stroke="rgba(239, 124, 46, 0.2)" strokeWidth="1.5" />
+                    <circle cx="25" cy="20" r="3" fill="#283891" />
+                    <circle cx="55" cy="20" r="3" fill="#283891" />
+                    <circle cx="85" cy="20" r="3" fill="#283891" />
+                    <circle cx="40" cy="40" r="3" fill="#EF7C2E" />
+                    <circle cx="70" cy="40" r="3" fill="#EF7C2E" />
+                  </svg>
+                </div>
+                <div className="project-body">
+                  <h3>Gastonia</h3>
+                  <div className="project-meta-line">
+                    <span className="project-loc">📍 Gastonia, NC</span>
+                    <span className="project-count">🏡 218 Single-Family Lots</span>
+                  </div>
+                  <p className="project-desc-para">
+                    Massive multi-phase master development featuring curated build-ready lots with asphalt paving, graded plots, and master-planned water/sewer networks.
+                  </p>
+                  <a href="#contact" className="project-link-btn">View Project &rarr;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+{/* 
+        <section id="about" className="section-about">
           <div className="section-container">
             <h2 className="section-title">About Us</h2>
             <p className="section-desc">
               Rdysites is a cutting-edge creative studio focused on engineering elegant solutions. We help businesses expand their online ecosystem using React, optimized architectures, and visually stunning identities.
             </p>
           </div>
-        </section> */}
+        </section>  */}
 
         {/* <section id="services" className="section-services">
           <div className="section-container">

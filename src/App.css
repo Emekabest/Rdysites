@@ -721,6 +721,167 @@ section {
   }
 }
 
+/* Featured Projects & Portfolio Styles */
+.section-projects {
+  background-color: var(--bg-color);
+  padding: 100px 0;
+  border-bottom: 1px solid rgba(40, 56, 145, 0.05);
+}
+
+.badge-projects {
+  background-color: rgba(40, 56, 145, 0.08) !important;
+  color: var(--primary-color) !important;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border: 1px solid rgba(40, 56, 145, 0.08);
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 20px rgba(40, 56, 145, 0.02);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(40, 56, 145, 0.06);
+  border-color: rgba(40, 56, 145, 0.15);
+}
+
+/* Status markers & indices */
+.project-header {
+  padding: 24px 24px 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-index {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--primary-color);
+  opacity: 0.5;
+}
+
+.project-status {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 4px 10px;
+  background-color: #f6ffed;
+  color: #389e0d;
+  border: 1px solid #b7eb8f;
+  border-radius: 50px;
+}
+
+.project-status.orange {
+  background-color: #fff7e6;
+  color: #d46b08;
+  border-color: #ffd591;
+}
+
+/* Architectural schema illustration container */
+.project-visual-schema {
+  background-color: #fafbfe;
+  border-top: 1px solid rgba(40, 56, 145, 0.04);
+  border-bottom: 1px solid rgba(40, 56, 145, 0.04);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-svg {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  transition: all 0.5s ease;
+}
+
+.project-card:hover .project-svg {
+  transform: scale(1.03);
+}
+
+/* Card Body spacing */
+.project-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.project-body h3 {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--primary-color);
+  margin: 0 0 10px 0;
+  letter-spacing: -0.3px;
+}
+
+.project-meta-line {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.project-loc {
+  font-size: 14px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.project-count {
+  font-size: 14px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.project-desc-para {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0 0 24px 0;
+}
+
+.project-link-btn {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: auto;
+  transition: all 0.3s ease;
+}
+
+.project-link-btn:hover {
+  gap: 8px;
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .section-projects {
+    padding: 60px 0;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
 /* Beautiful Zero Change Orders Section Design */
 .section-zero-change-orders {
   background-color: #ffffff;
