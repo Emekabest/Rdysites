@@ -510,6 +510,30 @@ function App() {
             </div>
           </div>
         </section>
+
+        <section id="contact" className="section-contact-cta">
+          <div className="section-container">
+            <div className="cta-panel">
+              <div className="cta-content">
+                <span className="badge badge-contact">Ready to build</span>
+                <h2 className="section-title cta-title">READY TO BUILD WITH CERTAINTY?</h2>
+                <p className="cta-copy">From land acquisition to build-ready lots, let's discuss your next development.</p>
+                <a href="mailto:ricka@rdysites.com" className="cta-primary-btn">
+                  Discuss Your Development <span aria-hidden="true">→</span>
+                </a>
+              </div>
+
+              <div className="cta-company-block">
+                <div className="company-brand">RdySites</div>
+                <p className="company-tagline">Residential Site Development</p>
+                <ul className="company-meta-list">
+                  <li><span>Call:</span> 00000000</li>
+                  <li><span>Email:</span> <a href="mailto:ricka@rdysites.com">ricka@rdysites.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
 {/* 
         <section id="about" className="section-about">
           <div className="section-container">
