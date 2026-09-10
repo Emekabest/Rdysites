@@ -130,6 +130,209 @@ function App() {
           </div>
         </section>
 
+        {/* The Problem Section */}
+        <section id="problem" className="section-problem">
+          <div className="section-container">
+            <span className="badge badge-problem">The Problem</span>
+            <h2 className="section-title">Building homes is predictable. Site development often isn't.</h2>
+            
+            <div className="problems-grid">
+              {/* Problem 01 */}
+              <div className="problem-card">
+                <div className="problem-number">01</div>
+                <div className="problem-visual">
+                  <svg className="visual-svg" viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="10" y1="50" x2="90" y2="50" stroke="rgba(239, 124, 46, 0.2)" strokeWidth="2" strokeDasharray="3 3" />
+                    <line x1="10" y1="50" x2="50" y2="35" stroke="#283891" strokeWidth="3" />
+                    <line x1="50" y1="35" x2="90" y2="15" stroke="#EF7C2E" strokeWidth="3" />
+                    <circle cx="50" cy="35" r="4" fill="#283891" />
+                    <circle cx="90" cy="15" r="5" fill="#EF7C2E" />
+                    <path d="M78 15L90 15V27" stroke="#EF7C2E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    <text x="88" y="10" fill="#EF7C2E" fontSize="8" fontWeight="bold" fontFamily="sans-serif">$$$</text>
+                  </svg>
+                </div>
+                <h3>Cost uncertainty</h3>
+                <p>Unexpected site costs can make project budgets harder to predict.</p>
+              </div>
+
+              {/* Problem 02 */}
+              <div className="problem-card">
+                <div className="problem-number">02</div>
+                <div className="problem-visual">
+                  <svg className="visual-svg" viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="15" y="10" width="70" height="40" rx="6" stroke="#283891" strokeWidth="2" />
+                    <line x1="15" y1="22" x2="85" y2="22" stroke="rgba(40, 56, 145, 0.15)" strokeWidth="2" />
+                    <rect x="25" y="30" width="10" height="10" rx="2" fill="rgba(40, 56, 145, 0.1)" />
+                    <rect x="42" y="30" width="10" height="10" rx="2" fill="rgba(40, 56, 145, 0.1)" />
+                    <rect x="59" y="30" width="10" height="10" rx="2" fill="#EF7C2E-none" stroke="#EF7C2E" strokeWidth="2" />
+                    <line x1="56" y1="35" x2="72" y2="35" stroke="#EF7C2E" strokeWidth="2.5" strokeLinecap="round" />
+                    <path d="M68 31.5L72.5 35L68 38.5" stroke="#EF7C2E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </div>
+                <h3>Delays</h3>
+                <p>Unforeseen site issues can push timelines further out.</p>
+              </div>
+
+              {/* Problem 03 */}
+              <div className="problem-card">
+                <div className="problem-number">03</div>
+                <div className="problem-visual">
+                  <svg className="visual-svg" viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="25" y="8" width="50" height="44" rx="4" stroke="#283891" strokeWidth="2" />
+                    <line x1="33" y1="18" x2="55" y2="18" stroke="rgba(40, 56, 145, 0.4)" strokeWidth="2" />
+                    <line x1="33" y1="28" x2="67" y2="28" stroke="rgba(40, 56, 145, 0.4)" strokeWidth="2" />
+                    <line x1="33" y1="38" x2="67" y2="38" stroke="#EF7C2E" strokeWidth="2" />
+                    <circle cx="70" cy="40" r="10" fill="#EF7C2E" />
+                    <path d="M70 36V41M70 44H70.01" stroke="#ffffff" strokeWidth="2.5" strokeLinecap="round" />
+                  </svg>
+                </div>
+                <h3>Change orders</h3>
+                <p>Changes during development can create additional costs and complications.</p>
+              </div>
+
+              {/* Problem 04 */}
+              <div className="problem-card">
+                <div className="problem-number">04</div>
+                <div className="problem-visual">
+                  <svg className="visual-svg" viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="18" r="7" stroke="#283891" strokeWidth="1.8" />
+                    <circle cx="75" cy="18" r="7" stroke="#283891" strokeWidth="1.8" />
+                    <circle cx="50" cy="45" r="7" stroke="#283891" strokeWidth="1.8" />
+                    <path d="M33 21L42 38" stroke="rgba(40, 56, 145, 0.5)" strokeWidth="1.5" strokeDasharray="2 2" />
+                    <path d="M67 21L58 38" stroke="rgba(40, 56, 145, 0.5)" strokeWidth="1.5" strokeDasharray="2 2" />
+                    <path d="M33 18H67" stroke="rgba(40, 56, 145, 0.5)" strokeWidth="1.5" strokeDasharray="2 2" />
+                    <path d="M47 30H53M50 27V33" stroke="#EF7C2E" strokeWidth="2" strokeLinecap="round" />
+                  </svg>
+                </div>
+                <h3>Complexity</h3>
+                <p>Coordinating land, infrastructure, utilities, grading, and approvals takes time and resources.</p>
+              </div>
+            </div>
+
+            {/* Story Transition Element */}
+            <div className="problem-transition-box">
+              <span className="scenerio-bubble-title">Before RdySites</span>
+              <div className="scenerio-row before">
+                <div className="item"><span className="indicator danger">Cost ↑</span></div>
+                <div className="item"><span className="indicator danger">Timeline →</span></div>
+                <div className="item"><span className="indicator danger">Changes ↻</span></div>
+                <div className="item"><span className="indicator danger">Complexity ×</span></div>
+              </div>
+              
+              <div className="story-divider">
+                <div className="pulse-arrow">↓</div>
+              </div>
+
+              <blockquote className="transition-quote">
+                What if your lots arrived ready to build—with the cost and scope already defined?
+              </blockquote>
+              
+              <h3 className="transition-solution-heading">That's where RdySites comes in.</h3>
+
+              <div className="scenerio-row after">
+                <div className="item"><span className="indicator success">Predictable Costs</span></div>
+                <div className="item"><span className="indicator success">Managed Development</span></div>
+                <div className="item"><span className="indicator success">Build-Ready Lot</span></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* How It Works Section */}
+        <section id="how-it-works" className="section-how-it-works">
+          <div className="section-container">
+            <span className="badge badge-how">Our Process</span>
+            <h2 className="section-title">How It Works</h2>
+            <p className="section-subtitle-text">From raw land to build-ready lots.</p>
+
+            <div className="process-timeline">
+              {/* Step 01 */}
+              <div className="process-step">
+                <div className="process-meta">
+                  <div className="step-number">01</div>
+                  <div className="step-connector"></div>
+                </div>
+                <div className="process-card">
+                  <div className="step-icon-wrapper">
+                    <svg className="step-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#283891" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M2 17L12 22L22 17" stroke="#EF7C2E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M2 12L12 17L22 12" stroke="#283891" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div className="step-info">
+                    <h3>Acquire & Plan</h3>
+                    <p className="step-desc-text">Land acquisition + value engineering</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Step 02 */}
+              <div className="process-step">
+                <div className="process-meta">
+                  <div className="step-number">02</div>
+                  <div className="step-connector"></div>
+                </div>
+                <div className="process-card">
+                  <div className="step-icon-wrapper">
+                    <svg className="step-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M22 10V15C22 16.1 21.1 17 20 17H4C2.9 17 2 16.1 2 15V10" stroke="#283891" strokeWidth="2" />
+                      <path d="M6 10V5C6 3.9 6.9 3 8 3H16C17.1 3 18 3.9 18 5V10" stroke="#283891" strokeWidth="2" />
+                      <path d="M2 10H22" stroke="#EF7C2E" strokeWidth="2" />
+                      <path d="M10 14H14" stroke="#EF7C2E" strokeWidth="2" strokeLinecap="round" />
+                    </svg>
+                  </div>
+                  <div className="step-info">
+                    <h3>Develop</h3>
+                    <p className="step-desc-text">Clearing, grading, excavation, erosion control, utilities and infrastructure</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Step 03 */}
+              <div className="process-step">
+                <div className="process-meta">
+                  <div className="step-number">03</div>
+                  <div className="step-connector"></div>
+                </div>
+                <div className="process-card">
+                  <div className="step-icon-wrapper">
+                    <svg className="step-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="#283891" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <circle cx="9" cy="7" r="4" stroke="#283891" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke="#EF7C2E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="#EF7C2E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div className="step-info">
+                    <h3>Build & Coordinate</h3>
+                    <p className="step-desc-text">Construction, paving, concrete, landscaping and HOA coordination</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Step 04 */}
+              <div className="process-step">
+                <div className="process-meta">
+                  <div className="step-number">04</div>
+                </div>
+                <div className="process-card highlight-step">
+                  <div className="step-icon-wrapper">
+                    <svg className="step-svg animate-pulse-btn" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9z" stroke="#EF7C2E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M9 22V12h6v10" stroke="#283891" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div className="step-info">
+                    <h3>Deliver Build-Ready Lots</h3>
+                    <p className="step-desc-text">Finished residential lots ready for the homebuilder to build on</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section></section>
 
         {/* <section id="about" className="section-about">
