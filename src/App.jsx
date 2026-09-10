@@ -333,6 +333,78 @@ function App() {
           </div>
         </section>
 
+        {/* Zero Change Orders Section */}
+        <section id="zero-change-orders" className="section-zero-change-orders">
+          <div className="section-container">
+            <span className="badge badge-zero">Zero Risks</span>
+            <h2 className="section-title">ZERO CHANGE ORDERS</h2>
+            <blockquote className="zero-quote">
+              "Predictability built into the development process."
+            </blockquote>
+
+            {/* Explaining Model with Flow Visual */}
+            <div className="model-flow-visual">
+              <div className="flow-step">
+                <div className="flow-card">
+                  <div className="flow-icon">📝</div>
+                  <h4>Defined Scope</h4>
+                </div>
+              </div>
+              <div className="flow-arrow">➔</div>
+              <div className="flow-step">
+                <div className="flow-card">
+                  <div className="flow-icon">🤝</div>
+                  <h4>GMP Agreement</h4>
+                </div>
+              </div>
+              <div className="flow-arrow">➔</div>
+              <div className="flow-step">
+                <div className="flow-card">
+                  <div className="flow-icon">🏗️</div>
+                  <h4>Managed Development</h4>
+                </div>
+              </div>
+              <div className="flow-arrow">➔</div>
+              <div className="flow-step highlight">
+                <div className="flow-card">
+                  <div className="flow-icon">🔑</div>
+                  <h4>Build-Ready Lots</h4>
+                </div>
+              </div>
+            </div>
+
+
+
+            {/* Proof Metric Board */}
+            <div className="proof-track-record-header">
+              <span className="scenerio-bubble-title">TRACK RECORD</span>
+           
+            </div>
+
+            <div className="proof-metrics-strip">
+              <div className="proof-metric">
+                <div className="metric-number">300+</div>
+                <div className="metric-label">Acres Developed</div>
+              </div>
+              <div className="proof-divider"></div>
+              <div className="proof-metric">
+                <div className="metric-number">2,500+</div>
+                <div className="metric-label">Sites Built</div>
+              </div>
+              <div className="proof-divider"></div>
+              <div className="proof-metric">
+                <div className="metric-number">3</div>
+                <div className="metric-label">States Served</div>
+              </div>
+            </div>
+ <blockquote className="track-record-quote">
+                Built for the builders who demand certainty.
+              </blockquote>
+          </div>
+
+            
+        </section>
+
         <section></section>
 
         {/* <section id="about" className="section-about">
