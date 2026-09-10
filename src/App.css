@@ -386,6 +386,44 @@ section {
   gap: 16px;
 }
 
+.hero-stats {
+  background: linear-gradient(180deg, #ffffff 0%, #f7f8ff 100%);
+  border-top: 1px solid rgba(40, 56, 145, 0.08);
+  border-bottom: 1px solid rgba(40, 56, 145, 0.08);
+  padding: 24px 0;
+}
+
+.hero-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.hero-stat {
+  background: #ffffff;
+  border: 1px solid rgba(40, 56, 145, 0.1);
+  border-radius: 18px;
+  padding: 22px 18px;
+  text-align: center;
+  box-shadow: 0 12px 28px rgba(40, 56, 145, 0.05);
+}
+
+.hero-stat strong {
+  display: block;
+  font-size: 34px;
+  line-height: 1;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+  font-weight: 800;
+}
+
+.hero-stat span {
+  display: block;
+  font-size: 15px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
 /* Button UI Components */
 .btn {
   padding: 14px 32px;
@@ -629,6 +667,18 @@ section {
     align-items: stretch;
     max-width: 280px;
     margin: 0 auto;
+  }
+  .hero-stats {
+    padding: 18px 0;
+  }
+  .hero-stats-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-stat {
+    padding: 18px 16px;
+  }
+  .hero-stat strong {
+    font-size: 30px;
   }
   .btn {
     text-align: center;

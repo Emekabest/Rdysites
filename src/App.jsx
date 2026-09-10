@@ -113,16 +113,35 @@ function App() {
           </div>
         </section>
 
-        <section id="about" className="section-about">
+        <section className="hero-stats">
+          <div className="section-container hero-stats-grid">
+            <div className="hero-stat">
+              <strong>218+</strong>
+              <span>Build-ready lots</span>
+            </div>
+            <div className="hero-stat">
+              <strong>68</strong>
+              <span>Charlotte homesites</span>
+            </div>
+            <div className="hero-stat">
+              <strong>3</strong>
+              <span>States served</span>
+            </div>
+          </div>
+        </section>
+
+        <section></section>
+
+        {/* <section id="about" className="section-about">
           <div className="section-container">
             <h2 className="section-title">About Us</h2>
             <p className="section-desc">
               Rdysites is a cutting-edge creative studio focused on engineering elegant solutions. We help businesses expand their online ecosystem using React, optimized architectures, and visually stunning identities.
             </p>
           </div>
-        </section>
+        </section> */}
 
-        <section id="services" className="section-services">
+        {/* <section id="services" className="section-services">
           <div className="section-container">
             <h2 className="section-title">Our Specialized Services</h2>
             <div className="services-grid">
@@ -140,17 +159,17 @@ function App() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section id="partnership" className="section-partnership">
+        {/* <section id="partnership" className="section-partnership">
           <div className="section-container">
             <h2 className="section-title">Partnership Program</h2>
             <p className="section-desc">
               Let's join forces! We cooperate with global design houses, SaaS founders, and marketing experts. Gain recurring revenue pipelines by partnering with Rdysites.
             </p>
           </div>
-        </section>
-
+        </section> */}
+{/* 
         <section id="careers" className="section-careers">
           <div className="section-container">
             <h2 className="section-title">Join Our Mission</h2>
@@ -158,9 +177,9 @@ function App() {
               We seek passionate UI developers, copywriters, and performance engineers. Browse active positions and design the future of web standards alongside us.
             </p>
           </div>
-        </section>
+        </section> */}
 
-        <section id="contact" className="section-contact">
+        {/* <section id="contact" className="section-contact">
           <div className="section-container">
             <h2 className="section-title">Get in Touch</h2>
             <p className="section-desc">
@@ -173,7 +192,7 @@ function App() {
               <button type="submit" className="form-submit">Send Message</button>
             </form>
           </div>
-        </section>
+        </section> */}
       </main>
 
       <footer className="site-footer">
