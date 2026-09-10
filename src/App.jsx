@@ -116,14 +116,17 @@ function App() {
         <section className="hero-stats">
           <div className="section-container hero-stats-grid">
             <div className="hero-stat">
+              <span className="stat-topline">Delivered</span>
               <strong>218+</strong>
               <span>Build-ready lots</span>
             </div>
             <div className="hero-stat">
+              <span className="stat-topline">Charlotte</span>
               <strong>68</strong>
-              <span>Charlotte homesites</span>
+              <span>Homesites</span>
             </div>
             <div className="hero-stat">
+              <span className="stat-topline">Markets</span>
               <strong>3</strong>
               <span>States served</span>
             </div>
