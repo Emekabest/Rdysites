@@ -421,19 +421,11 @@ function App() {
                   <span className="project-status">Available</span>
                 </div>
                 <div className="project-visual-schema">
-                  <svg className="project-svg" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="5" y="5" width="110" height="70" rx="6" fill="#f8f9ff" stroke="rgba(40, 56, 145, 0.1)" strokeWidth="1.5" />
-                    <line x1="20" y1="5" x2="20" y2="75" stroke="rgba(40, 56, 145, 0.15)" strokeWidth="1" strokeDasharray="2 2" />
-                    <line x1="60" y1="5" x2="60" y2="75" stroke="rgba(40, 56, 145, 0.15)" strokeWidth="1" strokeDasharray="2 2" />
-                    <line x1="100" y1="5" x2="100" y2="75" stroke="rgba(40, 56, 145, 0.15)" strokeWidth="1" strokeDasharray="2 2" />
-                    <line x1="5" y1="40" x2="115" y2="40" stroke="#EF7C2E" strokeWidth="2.5" />
-                    <circle cx="20" cy="40" r="4.5" fill="#283891" />
-                    <circle cx="60" cy="40" r="4.5" fill="#283891" />
-                    <circle cx="100" cy="40" r="4.5" fill="#283891" />
-                    <rect x="15" y="15" width="10" height="10" rx="1.5" fill="rgba(40, 56, 145, 0.12)" />
-                    <rect x="55" y="15" width="10" height="10" rx="1.5" fill="rgba(40, 56, 145, 0.12)" />
-                    <rect x="95" y="15" width="10" height="10" rx="1.5" fill="rgba(40, 56, 145, 0.12)" />
-                  </svg>
+                  <img
+                    src="https://rdysites.com/wp-content/uploads/2025/11/partnership-image1.jpg"
+                    alt="Highland Grove project"
+                    className="project-image"
+                  />
                 </div>
                 <div className="project-body">
                   <h3>Highland Grove</h3>
@@ -455,16 +447,11 @@ function App() {
                   <span className="project-status">Available</span>
                 </div>
                 <div className="project-visual-schema">
-                  <svg className="project-svg" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="5" y="5" width="110" height="70" rx="6" fill="#f8f9ff" stroke="rgba(40, 56, 145, 0.1)" strokeWidth="1.5" />
-                    <rect x="15" y="15" width="22" height="30" rx="2" fill="rgba(40, 56, 145, 0.08)" stroke="#283891" strokeWidth="1.5" />
-                    <rect x="49" y="15" width="22" height="30" rx="2" fill="rgba(40, 56, 145, 0.08)" stroke="#283891" strokeWidth="1.5" />
-                    <rect x="83" y="15" width="22" height="30" rx="2" fill="rgba(239, 124, 46, 0.08)" stroke="#EF7C2E" strokeWidth="1.5" />
-                    <line x1="5" y1="55" x2="115" y2="55" stroke="rgba(40, 56, 145, 0.15)" strokeWidth="1.5" />
-                    <circle cx="26" cy="55" r="3.5" fill="#283891" />
-                    <circle cx="60" cy="55" r="3.5" fill="#283891" />
-                    <circle cx="94" cy="55" r="3.5" fill="#EF7C2E" />
-                  </svg>
+                  <img
+                    src="https://rdysites.com/wp-content/uploads/2025/10/control-image.jpg"
+                    alt="Highland Grove project"
+                    className="project-image"
+                  />
                 </div>
                 <div className="project-body">
                   <h3>Norman Station</h3>
@@ -486,17 +473,11 @@ function App() {
                   <span className="project-status orange">Underway</span>
                 </div>
                 <div className="project-visual-schema">
-                  <svg className="project-svg" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="5" y="5" width="110" height="70" rx="6" fill="#f8f9ff" stroke="rgba(40, 56, 145, 0.1)" strokeWidth="1.5" />
-                    <path d="M10 60h100V70H10V60z" fill="rgba(40, 56, 145, 0.1)" />
-                    <line x1="15" y1="20" x2="105" y2="20" stroke="rgba(40, 56, 145, 0.12)" strokeWidth="1.5" />
-                    <line x1="15" y1="40" x2="105" y2="40" stroke="rgba(239, 124, 46, 0.2)" strokeWidth="1.5" />
-                    <circle cx="25" cy="20" r="3" fill="#283891" />
-                    <circle cx="55" cy="20" r="3" fill="#283891" />
-                    <circle cx="85" cy="20" r="3" fill="#283891" />
-                    <circle cx="40" cy="40" r="3" fill="#EF7C2E" />
-                    <circle cx="70" cy="40" r="3" fill="#EF7C2E" />
-                  </svg>
+                   <img
+                    src="https://rdysites.com/wp-content/uploads/2025/11/partnership-image.jpg"
+                    alt="Highland Grove project"
+                    className="project-image"
+                  />
                 </div>
                 <div className="project-body">
                   <h3>Gastonia</h3>
