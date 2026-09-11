@@ -117,12 +117,12 @@ function App() {
           <div className="section-container hero-stats-grid">
             <div className="hero-stat">
               <span className="stat-topline">Delivered</span>
-              <strong>218+</strong>
+              <strong>2,034+</strong>
               <span>Build-ready lots</span>
             </div>
             <div className="hero-stat">
               <span className="stat-topline">Charlotte</span>
-              <strong>68</strong>
+              <strong>16,214+</strong>
               <span>Homesites</span>
             </div>
             <div className="hero-stat">
@@ -386,18 +386,18 @@ function App() {
 
             <div className="proof-metrics-strip">
               <div className="proof-metric">
-                <div className="metric-number">300+</div>
+                <div className="metric-number">2,034+</div>
                 <div className="metric-label">Acres Developed</div>
               </div>
               <div className="proof-divider"></div>
               <div className="proof-metric">
-                <div className="metric-number">2,500+</div>
+                <div className="metric-number">16,214+</div>
                 <div className="metric-label">Sites Built</div>
               </div>
               <div className="proof-divider"></div>
               <div className="proof-metric">
-                <div className="metric-number">3</div>
-                <div className="metric-label">States Served</div>
+                <div className="metric-number">17+</div>
+                <div className="metric-label">Yrs Experience</div>
               </div>
             </div>
             <blockquote className="track-record-quote">
